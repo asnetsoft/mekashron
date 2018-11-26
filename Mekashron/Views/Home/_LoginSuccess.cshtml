@@ -1,0 +1,23 @@
+﻿@model Mekashron.Models.CustomerViewModel
+
+@{
+    Layout = null;
+}
+
+
+<div class="form-group margin-top1x">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-success">
+                <div class="panel-heading">Authentication success!</div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Username: @Model.Email</li>
+                        <li class="list-group-item">FirstName: @Model.FirstName</li>
+                        <li class="list-group-item">LastName: @Model.LastName</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
